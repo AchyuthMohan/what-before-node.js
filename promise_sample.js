@@ -27,7 +27,7 @@ function multiply(num1,num2){
     })
   }
 
-add(10,20).then((sum)=>{
+add(10,20).then((sum)=>{                           //chain like manner
     console.log(sum)
     return multiply(sum,sum)
 }).then(product=>{
